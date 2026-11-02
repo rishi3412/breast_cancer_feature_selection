@@ -1,0 +1,58 @@
+experiment,selected_feature
+Baseline_All_30,mean radius
+Baseline_All_30,mean texture
+Baseline_All_30,mean perimeter
+Baseline_All_30,mean area
+Baseline_All_30,mean smoothness
+Baseline_All_30,mean compactness
+Baseline_All_30,mean concavity
+Baseline_All_30,mean concave points
+Baseline_All_30,mean symmetry
+Baseline_All_30,mean fractal dimension
+Baseline_All_30,radius error
+Baseline_All_30,texture error
+Baseline_All_30,perimeter error
+Baseline_All_30,area error
+Baseline_All_30,smoothness error
+Baseline_All_30,compactness error
+Baseline_All_30,concavity error
+Baseline_All_30,concave points error
+Baseline_All_30,symmetry error
+Baseline_All_30,fractal dimension error
+Baseline_All_30,worst radius
+Baseline_All_30,worst texture
+Baseline_All_30,worst perimeter
+Baseline_All_30,worst area
+Baseline_All_30,worst smoothness
+Baseline_All_30,worst compactness
+Baseline_All_30,worst concavity
+Baseline_All_30,worst concave points
+Baseline_All_30,worst symmetry
+Baseline_All_30,worst fractal dimension
+Solution_1_ANOVA_LogisticRegression,mean radius
+Solution_1_ANOVA_LogisticRegression,mean perimeter
+Solution_1_ANOVA_LogisticRegression,mean area
+Solution_1_ANOVA_LogisticRegression,mean concavity
+Solution_1_ANOVA_LogisticRegression,mean concave points
+Solution_1_ANOVA_LogisticRegression,worst radius
+Solution_1_ANOVA_LogisticRegression,worst perimeter
+Solution_1_ANOVA_LogisticRegression,worst area
+Solution_1_ANOVA_LogisticRegression,worst concavity
+Solution_1_ANOVA_LogisticRegression,worst concave points
+Solution_2_RFE_RandomForest,mean concave points
+Solution_2_RFE_RandomForest,radius error
+Solution_2_RFE_RandomForest,area error
+Solution_2_RFE_RandomForest,compactness error
+Solution_2_RFE_RandomForest,worst radius
+Solution_2_RFE_RandomForest,worst texture
+Solution_2_RFE_RandomForest,worst perimeter
+Solution_2_RFE_RandomForest,worst area
+Solution_2_RFE_RandomForest,worst concavity
+Solution_2_RFE_RandomForest,worst concave points
+Solution_3_L1_Selection_SVM,mean concave points
+Solution_3_L1_Selection_SVM,radius error
+Solution_3_L1_Selection_SVM,worst radius
+Solution_3_L1_Selection_SVM,worst texture
+Solution_3_L1_Selection_SVM,worst smoothness
+Solution_3_L1_Selection_SVM,worst concave points
+Solution_3_L1_Selection_SVM,worst symmetry

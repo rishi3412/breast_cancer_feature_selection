@@ -1,0 +1,13 @@
+BREAST CANCER FEATURE SELECTION - EXPERIMENT SUMMARY
+Dataset rows: 569
+Original features: 30
+Train rows: 455 | Test rows: 114
+Target encoding: malignant=1, benign=0
+Split: stratified 80/20, random_state=42
+Feature selection is fitted only on training data.
+
+                         experiment  features_selected  accuracy  precision_malignant  recall_malignant  f1_malignant  roc_auc  training_time_seconds
+                    Baseline_All_30                 30  0.973684             0.975610          0.952381      0.963855 0.995370               0.020708
+Solution_1_ANOVA_LogisticRegression                 10  0.956140             0.930233          0.952381      0.941176 0.997354               0.018790
+        Solution_2_RFE_RandomForest                 10  0.973684             1.000000          0.928571      0.962963 0.998347               0.928006
+        Solution_3_L1_Selection_SVM                  7  0.956140             0.951220          0.928571      0.939759 0.993717               0.015559
